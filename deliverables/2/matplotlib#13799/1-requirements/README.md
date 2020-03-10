@@ -1,3 +1,6 @@
-# Issue
+# Requirements
+## [Issue#13799](https://github.com/matplotlib/matplotlib/issues/13799)
+Currently, there is inconsistent behaviour for colour handling in graphs containing NaN values across different types of visualizations. In particular, this issue contrasts the behaviour between scatter plots and errorbar renderings -- specifically, when a scatter plot contains a dataset with a NaN value (ie. `x,y = [1, NaN, 3]`) and a corresponding colour list is specified with the `colors` arg (ie. `colors=['red', 'blue', 'green']`), the colour blue is skipped and (3,3) is rendered as green. However, given the same dataset to the errorbar, (3,3) is rendered as blue, thus, demonstrating an inconsistent behaviour.
 
-# Resolution
+## Expected Outcome
+Given the example above, the behaviour between scatterplot and errorbar axes should be consistent when rendering colours. There are 2 possible solutions: either have the scatterplot render (3,3) as blue, or have the errorbar render (3,3) as green. For consistency with core contributor comments, the latter approach will be taken.
