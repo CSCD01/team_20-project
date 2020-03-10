@@ -47,3 +47,10 @@ The extra failure after the change is due to the version differences of file **p
 ## Conclusion
 It can be a simple change on functions' prototype and will not break other features of matpolitlib, however this also changes the API documentation and may affect the behavior of existing scripts and may require a discussion with the developers.
 
+#### Latest update from developers of this issue on Mar 10, 2020
+![matp](./update.png)\
+
+More discussion will be on issue#16714\
+**Axhline doesn’t cycle through colors #16714**\
+https://github.com/matplotlib/matplotlib/issues/16714
+
