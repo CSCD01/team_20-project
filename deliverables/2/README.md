@@ -1,5 +1,7 @@
 # Issue List Report
 
+[Initial Bug Report](https://github.com/CSCD01/team_20-project/blob/master/deliverables/2/Initial%20Bug%20Fixes%20Report.pdf)
+
 # Issue Choice Report
 
 ## Issue 13799
@@ -10,7 +12,7 @@
 
 ### Risk
 
-## Issue 16389
+## [Issue 16389](https://github.com/CSCD01/team_20-project/tree/master/deliverables/2/matplotlib%2316389)
 
 ### Argument
 By implementing this fix it would help familiarize ourselves with the core process of creating artist inherited objects within mathplotlib. This will help us better understand the system as well as it looks like a good first issue which can be resolved and even merged within the given timeframe of the deliverable.
