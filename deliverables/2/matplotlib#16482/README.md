@@ -35,17 +35,18 @@ Since this solution is relatively trivail, it worthy to take a try and see the p
 ## Phase 3 Testing
 ### Integration Test
 #### Before change
-![matp](./before.png)
+![matp](./16482_test_before.png)
 #### After change
-![matp](./after.png)
+![matp](./16482_test_after.png)
 After comparing the result from running the provides test cases before and after the change, This change will not likely break other features of matplotlib.
 The extra failure after the change is due to the version differences of file **pyplot**, which is not feature failure.
 ### Validation and Varification
 #### Testing result before the change
-![matp](./16482_test_before.png)
+![matp](./before.png)
+
 
 #### Testing result after the change
-![matp](./16482_test_after.png)
+![matp](./after.png)
 
 After the change, the requirement for the issuer is satisfied.
 
