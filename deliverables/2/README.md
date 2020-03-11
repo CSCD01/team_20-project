@@ -7,13 +7,13 @@
 ## [Issue 13799](https://github.com/matplotlib/matplotlib/issues/13799)
 
 ### Argument
-First of all, this bug is not easy or too hard. This bug requires a large amount of understanding of the basic process in matplotlib. We have to figure out how the Nan value is drawed or passed between different objects. Second, the bug has been confirmed with Matplotlib, that Errorbar is not supposed to ignore the invalid point and shift the colour to the next valid point. Furthermore, there is only one team working on this bug, but the submitted PR was rejected due to incorrect implementation and no further update since March 2019.
+First of all, this bug is not easy or too hard. This bug requires a large amount of understanding of the basic flow in matplotlib as well as the numpy stack. We have to figure out how the NaN value is rendered or passed between different objects. Second, this bug has been confirmed by the core contributors of Matplotlib -- that Errorbar is not supposed to ignore the invalid point and shift the colour to the next valid point. Furthermore, there is only one team who previously worked on this bug, and their submitted PR was rejected due to incorrect implementation and no further updates were made since March 2019.
 
 ### Estimate
-Need to modify the way ErrorBars object working with nan values. The correct fix is keeping all the Nan values instead of removing them from the axis. The previous PR removed was rejected because the author simply removed the corresponding colour of invalid points before passing values to Errorbar project. The Estimated time is 5 hourr, where including 2 hours for tracing and analyzing, 1 hour for implementation, 1 hour for testing and writting test cases, 1 hour for reviewing and submitting PR.
+Need to modify the way Errorbars object handles NaN values. The correct fix is keeping all of the NaN values instead of removing them from the axis. The previous PR was rejected because the author simply removed the corresponding colour of invalid points before passing values to Errorbar object. The Estimated time is 5 hours, which includes 2 hours for tracing and analyzing, 1 hour for implementation, 1 hour for testing, and 1 hour for reviewing and submitting the PR.
 
 ### Risk
-The risk can be found in how the Matplotlib handle the Nan value. If Matplotlib does not support Nan value in Axis and always remove the Nan value instead of keeping them as invalid points, then the correct fix of bug possibly need to change the structure or dependencies of many objects in Matplolib, that is out of range for this task. 
+The risk can be found in how Matplotlib handles NaN values. If Matplotlib does not support NaN values in the Axis object and always removes the NaN values instead of keeping them as invalid points, then the correct fix of the bug possibly involves changing the structure of the dependencies of many objects in Matplolib, which is out of range for this task. 
 
 
 ## [Issue 16389](https://github.com/CSCD01/team_20-project/tree/master/deliverables/2/matplotlib%2316389)
