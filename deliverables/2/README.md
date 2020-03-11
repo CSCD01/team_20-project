@@ -32,3 +32,6 @@ This issue should be a simple fix, and involves fundamental usage of matplotlib.
 The issue it self should not take too much time to fix. The approximation will be 1 hour on trace through the code and 1 hour to make the fix. However, since its the first time we work on the open source project, we need to read through the relevant document including the contribution process and the tools involved during developing. The approximation of reading through documents is about 2 hours, 1 hour on setting up the development environment of the project, and 1 hour on getting familiar with the relevant tools for the project (ie. pytest). In conclusion, the estimation for this issue is 6-10 hours.
 ### Risk
 THe risk for fixing this bug could be how the bug is actually triggered. Since issuer stated that the color should be default to the settings in rcParam, how the rcParam is implemented may affect the complexity of the issue. 
+
+# Gantt Chart for estimated work for each phase
+![alt text](https://github.com/CSCD01/team_20-project/blob/master/deliverables/2/GanttChart.PNG "Deliverable 2 Gantt Chart")
