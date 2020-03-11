@@ -1,5 +1,5 @@
 # Issue 16482 Development Process
-## [Issue#16482](https://github.com/matplotlib/matplotlib/issues/13799) (API Consistency)
+## [Issue#16482](https://github.com/matplotlib/matplotlib/issues/16482) (API Consistency)
 hlines and vlines color does not default to lines.color in rcParams. The default argument is 'k' which doesn't work with dark backgrounds.
 ##### Code for reproduction
 ```python
