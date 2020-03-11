@@ -16,7 +16,7 @@ with mpl.rc_context({'lines.color':'white'}):
 ## Phase 1 Requirement and Analysis
 According to matplotlib documentation, hlines and vlines functions will have a default **colors** of 'k' (black), when **colors** attribute is not provided.\
 https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.hlines.html\
-![matp](./matplotlib_hlines_doc.png)
+![matp](./1-requirements/matplotlib_hlines_doc.png)
 However, the issuer suggested to set the colors match to the settings in rcRaram when it's not provided.\
 The issue will require a API update and need to discuss with the developers.\
 Currently, a simple solution can be achieved by setting the default parameter **colors** to **None**.\
@@ -32,23 +32,19 @@ Since this solution is relatively trivail, it worthy to take a try and see the p
 
 
 ## Phase 3 Testing
-### Integration Test
-#### Before change
-![matp](./16482_test_before.png)
-#### After change
-![matp](./16482_test_after.png)
-After comparing the result from running the provides test cases before and after the change, This change will not likely break other features of matplotlib.
-The extra failure after the change is due to the version differences of file **pyplot**, which is not feature failure.
 ### Validation and Varification
 #### Testing result before the change
-![matp](./before.png)
-
-
+![matp](./3-test_screenshots/before.png)
 #### Testing result after the change
-![matp](./after.png)
-
+![matp](./3-test_screenshots/after.png)
 After the change, the requirement for the issuer is satisfied.
-
+### Integration Test
+#### Before change
+![matp](./3-test_screenshots/16482_test_before.png)
+#### After change
+![matp](./3-test_screenshots/16482_test_after.png)
+After comparing the result from running the provides test cases before and after the change, This change will not likely break other features of matplotlib.
+The extra failure after the change is due to the version differences of file **pyplot**, which is not feature failure.
 ## Phase 4 - Deploying
 The issue can be a simple change on functions' prototype and will not break other features of matpolitlib, however this also changes the API documentation and may affect the behavior of existing scripts and may require a discussion with the developers.
 
