@@ -1,6 +1,6 @@
 # [Pull Request](https://github.com/matplotlib/matplotlib/pull/16694)
 
-Changes to the codebase as well as the test added to the test suite can be found under the submitted pull request.
+The results of the development and Testing phase can both be found under the pull request which acts the release phase.
 
 # Test Cases
 
