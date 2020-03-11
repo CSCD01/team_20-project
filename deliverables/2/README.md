@@ -4,7 +4,7 @@
 
 # Issue Choice Report
 
-## Issue 13799
+## [Issue 13799](https://github.com/matplotlib/matplotlib/issues/13799)
 
 ### Argument
 First of all, this bug is not easy or too hard. This bug requires a large amount of understanding of the basic process in matplotlib. We have to figure out how the Nan value is drawed or passed between different objects. Second, the bug has been confirmed with Matplotlib, that Errorbar is not supposed to ignore the invalid point and shift the colour to the next valid point. Furthermore, there is only one team working on this bug, but the submitted PR was rejected due to incorrect implementation and no further update since March 2019.
