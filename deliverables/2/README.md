@@ -22,7 +22,7 @@ By implementing this fix it would help familiarize ourselves with the core proce
 The effort in fixing this bug would be an estimated three hours. An hour and a half would be used for completing documentation and analysis. A great deal of this would be taken up by code tracing in order to properly locate and plan where the fix should occur. The second half of this estimate will be the quick implementation of the plan, the creating of a test for this specific bug case, as well as submitting a pull request. 
 
 ### Risk
-The risk which can be found in how this bug fix is implemented. Our decided fix for fontProperties could conflict with the lead contributor�s perspective on, at which specific level of the code the fix should be put into place. Another risk can come from us modifying the way in which labels are read to ensure this bug is fixed, but in the process breaking another aspect of Text.
+The risk which can be found in how this bug fix is implemented. Our decided fix for fontProperties could conflict with the lead contributor's perspective on, at which specific level of the code the fix should be put into place. Another risk can come from us modifying the way in which labels are read to ensure this bug is fixed, but in the process breaking another aspect of Text.
 
 ## Issue 16482
 
