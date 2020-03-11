@@ -27,7 +27,7 @@ The effort in fixing this bug would be an estimated three hours. An hour and a h
 ### Risk
 The risk which can be found in how this bug fix is implemented. Our decided fix for fontProperties could conflict with the lead contributor's perspective on, at which specific level of the code the fix should be put into place. Another risk can come from us modifying the way in which labels are read to ensure this bug is fixed, but in the process breaking another aspect of Text.
 
-## [Issue 16482](https://github.com/matplotlib/matplotlib/issues/13799)
+## [Issue 16482](https://github.com/matplotlib/matplotlib/issues/16482)
 
 ### Argument
 This issue should be a simple fix, and involves fundamental usage of matplotlib. We probably will need to trace the code through different layers. It's a good start point to get familiar with matplolib porject and the process of contributing to open source projects. 
