@@ -1,5 +1,5 @@
 # Requiremnt
-## [Issue#16482](https://github.com/matplotlib/matplotlib/issues/13799) (API Consistency)
+## [Issue#16482](https://github.com/matplotlib/matplotlib/issues/16482) (API Consistency)
 Currently the **hlines** and **vlines** function in **pyplot** (script layer) default the color for lines to black. However, the issuer showed a scenario that it is better for the default color to be same as what is set in rcParams.\
 
 >hlines and vlines color does not default to lines.color in rcParams. The default argument is 'k' which doesn't work with dark backgrounds.
