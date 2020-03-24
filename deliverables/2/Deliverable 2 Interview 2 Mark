@@ -1,0 +1,35 @@
+D2:
+
+Bug Intro: 10/10
+
+Choice of Bugs: 5/5
+
+Correctness: 25/25
+
+Documentation: 10/10
+
+Test Suite: 6/10 - one issue does not have a proper acceptance test suite but unit testing is provided
+
+Software Process: 25/25 
+
+Presentation: 11/15 - Format is inconsistant across the different components in the document
+
+Total: 92/100
+
+I2:
+
+Summary: 0.5/1 - lack of explainations/reasons in bugs dropped
+
+demo1: 2/2
+
+explain1: 1/1
+
+test1: 1/2 - asks other teammate for aid to locate correct version
+
+demo2: 2/2
+
+software process: 2/2
+
+bonus: 1/1
+
+Total 9.5/10
