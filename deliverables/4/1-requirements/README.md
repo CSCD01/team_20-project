@@ -1,4 +1,4 @@
 # Issue
-When creating a line graph, it is found that users would like the option of applying the line labels to the side of the grapth at the ends of each line rather than just being places ouside of the graph in the legend. The need for such an option was great enougth to consititue the creation of this feature request.
+When creating a line graph, it is found that users would like the option of applying the line labels to the side of the grapth at the ends of each line rather than just being placed ouside of the graph in the legend. The need for such an option was great enougth to consititue the creation of this feature request.
 # Resolution
-Therefore the solution would be to implement as simple to use feature in which transposes the labels found within a legend onto the side of the graph. This fearture reqires very little effort from the end user since they have already gone through the process of creating the line graph with legend.
+Therefore the solution would be to implement as simple to use feature in which transposes the labels found within a legend onto the side of the graph. This fearture should reqire very little effort from the end user since they have already gone through the process of creating the line graph with legend.
