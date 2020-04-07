@@ -8,3 +8,5 @@ Includes Implementation and Unit Testing
 Includes Acceptance Testing
 ## [5-release](https://github.com/CSCD01/team_20-project/tree/master/deliverables/4/5-release)
 Includes User Guide
+## Gantt Chart Plan for the Phase
+![](https://github.com/CSCD01/team_20-project/blob/master/deliverables/4/GanttChart.PNG)
