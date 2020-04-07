@@ -5,3 +5,4 @@ Deliverables can be found in the `deliverables` directory inside a subdirectory 
 * [Deliverable 1](./deliverables/1/Deliverable_1.pdf)
 * [Deliverable 2](./deliverables/2/)
 * [Deliverable 3](./deliverables/3/Deliverable_3.pdf)
+* [Deliverable 4](./deliverables/4/)
